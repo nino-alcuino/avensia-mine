@@ -1,0 +1,22 @@
+﻿{
+  "CvlEntities": [
+    {
+      "CvlId": "SubCategory",
+      "EntityTypeId": "Garment",
+      "CvlKeyFieldTypeId": "GarmentId",
+      "CvlValueFieldTypeId": "GarmentName",
+      "CvlParentKeyFieldTypeId": "GarmentType",
+      "IsAllowCvlEntityDeleted": 1,
+      "DefaultValueFields": [
+        {
+          "FieldTypeId": "GarmentDescription",
+          "FieldTypeValue": "From CVL Description Test"
+        },
+        {
+          "FieldTypeId": "GarmentSku",
+          "FieldTypeValue": "123123123"
+        }
+      ]
+    }
+  ]
+}

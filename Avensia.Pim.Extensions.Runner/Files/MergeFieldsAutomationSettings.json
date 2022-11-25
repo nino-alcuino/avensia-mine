@@ -1,0 +1,41 @@
+﻿{
+  "DefaultSeparator": " ",
+  "DefaultCvlLanguage": "",
+  "TargetMergeFields": [
+    {
+      "TargetEntityTypeId": "Item",
+      "TargetFieldTypeId": "ItemDescription",
+      "MergeFieldTypes": [
+        {
+          "FieldTypeId": "ItemNumber"
+        },
+        {
+          "FieldTypeId": "ItemNrfProductNumber",
+          "EntityTypeId": "Item",
+          "Separator": " - Hello World - "
+        },
+        {
+          "FieldTypeId": "ProductName",
+          "EntityTypeId": "Product"
+        }
+      ]
+    },
+    {
+      "TargetEntityTypeId": "Item",
+      "TargetFieldTypeId": "ItemDimensionSize",
+      "MergeFieldTypes": [
+        {
+          "FieldTypeId": "ProductName",
+          "EntityTypeId": "Product"
+        },
+        {
+          "FieldTypeId": "ItemNumber"
+        },
+        {
+          "FieldTypeId": "ResourceFilename",
+          "EntityTypeId": "Resource"
+        }
+      ]
+    }
+  ]
+}
